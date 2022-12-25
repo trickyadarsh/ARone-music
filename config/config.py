@@ -11,7 +11,7 @@ API_ID = int(getenv("API_ID", "19893481"))
 API_HASH = getenv("API_HASH", "695b2e447b8aeb79966ff572210b0bc1")
 BOT_TOKEN = getenv("BOT_TOKEN", "5625397650:AAH90ledMbxHZSiXUJtqC9U2vJpv2TKr68U")
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://EXONTESTMONGO:EXONTESTMONGO@cluster0.bviw7ic.mongodb.net/?retryWrites=true&w=majority")
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001810356172"))
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "RAoneX")
 OWNER_ID = list(map(int, getenv("OWNER_ID", "2033800689").split()))
 SUPPORT_CHANNEL = getenv(
