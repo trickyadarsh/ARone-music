@@ -15,9 +15,9 @@ LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "RAoneX")
 OWNER_ID = list(map(int, getenv("OWNER_ID", "2033800689").split()))
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/LOVER_MUSIC_SUPPORT_GROUP")
+    "SUPPORT_CHANNEL", "https://t.me/LOVER_MUSIC_SUPPORT")
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/LOVER_MUSIC_SUPPORT")
+    "SUPPORT_GROUP", "https://t.me/LOVER_MUSIC_SUPPORT_group")
 
 DURATION_LIMIT_MIN = int(
     getenv("DURATION_LIMIT", "59006")
