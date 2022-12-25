@@ -48,7 +48,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = "https://t.me/shubh
             ),
         ],
         [
-            InlineKeyboardButton(text="𝗔𝗹𝗹 𝘂𝗽𝗱𝗮𝘁𝗲𝘀", url=f"https://t.me/Lover_Music_Support"),
+            InlineKeyboardButton(text="𝗔𝗹𝗹 𝘂𝗽𝗱𝗮𝘁𝗲𝘀", url=f"https://t.me/RAoneXchannel"),
             InlineKeyboardButton(
                 text="𝗠𝗮𝗶𝗻 𝘀𝘂𝗽𝗽𝗼𝗿𝘁 𝗚", url=f"{config.SUPPORT_GROUP}"
             ),
