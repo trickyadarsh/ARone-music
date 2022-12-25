@@ -10,24 +10,24 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="💥 ⁣𓆩𝔸DD 𝕄E 𝕋O 𝕐OUƦ 𝔾ƦOUק𓆪 💥",
+                text="⁣𓆩𝗔𝗱𝗱 𝗠𝗲 𝗧𝗼 𝗬𝗼𝘂𝗿 𝗴𝗿𝗼𝘂𝗽𓆪",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             )
         ],
         [
             InlineKeyboardButton(
-                text="💥 ℂᴏᴍᴍᴀɴᴅʟᴇℝ 💥",
+                text="𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀",
                 callback_data="settings_back_helper",
             ),
             InlineKeyboardButton(
-                text="💥 𝕊ᴇᴛᴛɪɴɢꜱ 💥", callback_data="settings_helper"
+                text="𝗦𝗘𝗧𝗧𝗜𝗡𝗚", callback_data="settings_helper"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="💥 𝕌ᴘᴅᴀᴛ𝔼 💥", url=f"https://t.me/Lover_Music_Support"),
+                text="𝗔𝗟𝗟 𝘂𝗽𝗱𝗮𝘁𝗲", url=f"https://t.me/Lover_Music_Support"),
             InlineKeyboardButton(
-                text="💥 𝕊ᴜᴘᴘᴏʀ𝕋 💥", url=f"{config.SUPPORT_GROUP}"
+                text="𝗺𝗮𝗶𝗻 𝘀𝘂𝗽𝗽𝗼𝗿𝘁 𝗚", url=f"{config.SUPPORT_GROUP}"
             ),
         ],
      ]
@@ -38,25 +38,23 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = "https://t.me/shubh
     buttons = [
         [
             InlineKeyboardButton(
-                text="💥 𓆩𝔸DD 𝕄E 𝕋O 𝕐OUƦ 𝔾ƦOUק𓆪 💥",
+                text="𓆩𝗔𝗱𝗱 𝗠𝗲 𝗧𝗼 𝗬𝗼𝘂𝗿 𝗴𝗿𝗼𝘂𝗽𓆪",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="💥 ℂᴏᴍᴍᴀɴᴅʟᴇℝ 💥", callback_data="settings_back_helper"
-            ),
+                text="𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀", callback_data="settings_back_helper"
+            InlineKeyboardButton(
+                    text="𓊈𝗥𝗔𝗼𝗻𝗲𓊉", url=f"https://t.me/shubhamsah1"}"
+                
         ],
         [
-            InlineKeyboardButton(text="💥 𝕌ᴘᴅᴀᴛ𝔼 💥", url=f"https://t.me/Lover_Music_Support"),
+            InlineKeyboardButton(text="𝗔𝗟𝗟 𝘂𝗽𝗱𝗮𝘁𝗲", url=f"https://t.me/Lover_Music_Support"),
             InlineKeyboardButton(
-                text="💥 𝕊ᴜᴘᴘᴏʀ𝕋 💥", url=f"{config.SUPPORT_GROUP}"
+                text="𝗺𝗮𝗶𝗻 𝘀𝘂𝗽𝗽𝗼𝗿𝘁 𝗚", url=f"{config.SUPPORT_GROUP}"
             ),
         ],
-        [
-            InlineKeyboardButton(
-                    text="𓊈💥🔥𝔻eͥѵeͣlͫ𐍉קeℝ🔥💥𓊉", url=f"https://t.me/shubhamsah1"
-                )
-        ],
+    
      ]
     return buttons
