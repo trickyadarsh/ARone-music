@@ -15,9 +15,9 @@ LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001810356172"))
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "𝐑𝐀𝐨𝐧𝐞𝐗")
 OWNER_ID = list(map(int, getenv("OWNER_ID", "2033800689").split()))
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/LOVER_MUSIC_SUPPORT")
+    "SUPPORT_CHANNEL", "https://t.me/RAoneXchannel")
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/LOVER_MUSIC_SUPPORT_group")
+    "SUPPORT_GROUP", "https://t.me/RAoneXgroup")
 
 DURATION_LIMIT_MIN = int(
     getenv("DURATION_LIMIT", "59006")
@@ -52,7 +52,7 @@ PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", "False")
 YOUTUBE_DOWNLOAD_EDIT_SLEEP = int(getenv("YOUTUBE_EDIT_SLEEP", "5"))
 TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "6"))
 
-GITHUB_REPO = getenv("GITHUB_REPO", "https://t.me/shubhamsah1")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://t.me/RAoneX_01")
 
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
 SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
