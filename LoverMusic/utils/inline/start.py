@@ -4,8 +4,6 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 import config
 from LoverMusic import app
-
-
 def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
@@ -44,7 +42,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = "https://t.me/shubh
         ],
         [
             InlineKeyboardButton(
-                text="𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀", callback_data="settings_back_helper"
+                text="𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀", callback_data="settings_back_helper"),
             InlineKeyboardButton(
                     text="𓊈𝗥𝗔𝗼𝗻𝗲𓊉", url=f"https://t.me/shubhamsah1"}"
                 
