@@ -13,7 +13,7 @@ BOT_TOKEN = getenv("BOT_TOKEN", "6243574805:AAE7QR_jXqJ1JZt9awu9ekqVxj0M6Nr4y50"
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://rajputt123:956981@cluster0.ssjtqq1.mongodb.net/?retryWrites=true&w=majority")
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-100181035612"))
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "𝐑𝐀𝐨𝐧𝐞𝐗")
-OWNER_ID = list(map(int, getenv("OWNER_ID", "2033800689").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "6251519412").split()))
 SUPPORT_CHANNEL = getenv(
     "SUPPORT_CHANNEL", "https://t.me/RAoneXchannel")
 SUPPORT_GROUP = getenv(
