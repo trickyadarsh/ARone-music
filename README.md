@@ -1,6 +1,7 @@
 # ARone-music
 nvm install v18 #nodejs 18+
 
+https://dashboard.heroku.com/new?template=https://github.com/trickyadarsh/ARone-music
 git clone https://github.com/ITZ-ZAID/Telethon-Music # clone the repo.
 
 cd Telethon-Music
